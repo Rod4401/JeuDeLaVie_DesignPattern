@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+	<!-- Pour simplifier le changement des chaines de caracteres, elles sont toutes reunies ici-->
+	<!-- Dans la section Preceptes noms, vous pouvez rajouter des preceptes-->
+<properties>
+	
+	<!-- Fenetre principale -->
+	<!-- Les menus -->
+	<entry key="play">Play</entry>
+	<entry key="pause">Pause</entry>
+	<entry key="mnuItemHighLife">HighLife</entry>
+	<entry key="mnuItemDayNight">DayNight</entry>
+	<entry key="mnuItemClassique">Classique</entry>
+	<entry key="textNbGenerations">Generation : </entry>
+	<entry key="mnuStrat">Strategie</entry>
+	<entry key="mnuItemCapture">Capture	</entry>
+	<entry key="nomMenuFile">File</entry>
+	<entry key="mnuItemResize">Redimensionner</entry>
+	<entry key="textNbCellulesVivantes">En vie : </entry>
+	<entry key="mnuOptions">Options</entry>
+	<entry key="mnuJeu">Jeu</entry>
+	<entry key="mnuTemps">Temps</entry>
+	<entry key="mnuCellules">Cellules</entry>
+	<entry key="mnuFenetre">Fenetre</entry>
+	<entry key="SliderSpeed.max">Vite</entry>
+	<entry key="SliderSpeed.min">Lent</entry>
+	<entry key="SliderSpeed.middle">Vitesse</entry>
+	
+
+	<!-- Popup new Strategie -->
+	<entry key="popupNewStrategie.nom">Nouvelle strategie</entry>
+	<entry key="popupNewStrategie.lblName">Le nom :</entry>
+	<entry key="popupNewStrategie.lblNaissance">Naissance :</entry>
+	<entry key="popupNewStrategie.lblSurvie">Survie :</entry>
+	<entry key="popupNewStrategie.validate">Valider</entry>
+	<entry key="popupNewStrategie.exemple">Ex : 1,2,5 pour les voisins 1,2 et 5</entry>
+				
+	<!-- Popup Resize -->
+	<entry key="nomPopupResize">Saisir les nouvelles dimensions</entry>
+	<entry key="popupResizeLblColonnes">Colonnes :</entry>
+	<entry key="popupResizeLblLignes">Lignes :</entry>
+	<entry key="popupResizeBtnValidate">Valider</entry>
+	
+	<!-- Fenetre -->
+	<entry key="windowBaseName">Jeu de la vie </entry>
+
+	<!-- Border grille jeu -->
+	<entry key="borderGrilleJeu">Grille</entry>
+
+	<!-- Preceptes noms-->
+	<entry key="listeNomsPrecepts">Planneur;Cannon a planneur;LWSS;Puffer</entry>	
+	<!-- Preceptes coordonnees-->
+	<entry key="Planneur">{0,1};{1,2};{2,0};{2,1};{2,2}</entry>	
+	<entry key="Cannon a planneur">{0,4};{0,5};{1,4};{1,5};{10,4};{10,5};{10,6};{11,3};{11,7};{12,2};{12,8};{13,2};{13,8};{14,5};{15,3};{15,7};{16,4};{16,5};{16,6};{17,5};{20,2};{20,3};{20,4};{21,2};{21,3};{21,4};{22,1};{22,5};{24,0};{24,1};{24,5};{24,6};{34,2};{34,3};{35,2};{35,3}</entry>	
+	<entry key="LWSS">{0,0};{3,0};{4,1};{0,2};{4,2};{1,3};{2,3};{3,3};{4,3}</entry>	
+	<entry key="Puffer">{5,0};{6,1};{0,2};{6,2};{1,3};{2,3};{3,3};{4,3};{5,3};{6,3};{0,6};{1,6};{2,6};{0,7};{1,7};{4,8};{4,9};{5,9};{5,10};{6,10};{4,11};{5,11};{4,15};{5,15};{5,16};{6,16};{4,17};{5,17};{4,18};{0,19};{1,19};{0,20};{1,20};{2,20};{1,23};{2,23};{3,23};{4,23};{5,23};{6,23};{0,24};{6,24};{6,25};{5,26}</entry>	
+
+
+	<!-- Actions menu, name, etc -->
+	<entry key="menuPreceptes">Figures</entry>
+	<entry key="menuCommandes">Commandes</entry>
+	
+	<!-- Action Next Step-->
+	<entry key="ActionNext.name">Next</entry>
+	<entry key="ActionNext.shortDescription">Etape suivante</entry> 
+		
+	<!-- Action Play-->
+	<entry key="ActionPlay.name">Play</entry>
+	<entry key="ActionPlay.shortDescription">Demarrer la simulation</entry>
+	
+	<!-- Action Generer-->
+	<entry key="ActionGenerer.name">Generer</entry>
+	<entry key="ActionGenerer.shortDescription">Generer grille aleatoire</entry>
+
+	<!-- Action Reset-->
+	<entry key="ActionReset.name">Reset</entry>
+	<entry key="ActionReset.shortDescription">Reinitialiser la grille</entry>
+
+	<!-- Action Afficher-->
+	<entry key="ActionAfficher.name">Afficher</entry>
+	<entry key="ActionAfficher.shortDescription">Afficher les commandes</entry>
+
+	<!-- Action Masquer-->
+	<entry key="ActionMasquer.name">Masquer</entry>
+	<entry key="ActionMasquer.shortDescription">Masquer les commandes</entry>
+
+	<!-- Action Charger-->
+	<entry key="ActionCharger.name">Charger</entry>
+	<entry key="ActionCharger.shortDescription">Charger une grille</entry>
+	<entry key="ActionCharger.titleWindow">Choisisez un fichier pour load : </entry> 
+
+	<!-- Action Save to image-->
+	<entry key="ActionToImage.name">Capture</entry>
+	<entry key="ActionToImage.shortDescription">Capture de la grille en image</entry>
+	<entry key="ActionToImage.titleWindow">Choisisez un fichier pour enregistrer l'image : </entry>
+	<entry key="ActionToImage.nameFileDefault">picture.png</entry> 
+
+	<!-- Action Enregister-->
+	<entry key="ActionEnregistrer.name">Enregistrer</entry>
+	<entry key="ActionEnregistrer.shortDescription">Enregistrer l'etat de la grille</entry>
+	<entry key="ActionEnregistrer.titleWindow">Choisisez un emplacement et un nom pour sauvergader : </entry>
+	<entry key="ActionEnregistrer.nameFileDefault">Save 0.txt</entry> 
+
+	<!-- Action selectionner le crayon-->
+	<entry key="ActionCrayon.name">Crayon</entry>
+	<entry key="ActionCrayon.shortDescription">Selectionner le crayon</entry>
+
+	<!-- Action selectionner la gomme-->
+	<entry key="ActionGomme.name">Gomme</entry>
+	<entry key="ActionGomme.shortDescription">Selectionner la gomme</entry>
+
+	<!-- Action afficher ou non le quadrillage-->
+	<entry key="ActionQuadrillage.name">Quadrillage</entry>
+	<entry key="ActionQuadrillage.shortDescription">Selectionner le crayon</entry> 
+
+	<!-- Action Creer une nouvelle strategie-->	
+	<entry key="ActionCreationStrategie.name">Creer une strategie</entry>
+	<entry key="ActionCreationStrategie.shortDescription">Creer une nouvelle strategie de jeu</entry>
+
+	<!-- Action Mettre la strategie classique-->
+	<entry key="ActionStratClassique.name">Classique</entry>
+	<entry key="ActionStratClassique.shortDescription">Selectionner la strategie classique</entry> 
+	<entry key="ActionStratClassique.windowname">(Classique)</entry>
+
+	<!-- Action Mettre la strategie HighLife-->
+	<entry key="ActionStratHighLife.name">HighLife</entry>
+	<entry key="ActionStratHighLife.shortDescription">Selectionner la strategie HighLife</entry> 
+	<entry key="ActionStratHighLife.windowname">(HighLife)</entry>	
+
+	<!-- Action Mettre la strategie DayNight-->
+	<entry key="ActionStratDayNight.name">DayNight</entry>
+	<entry key="ActionStratDayNight.shortDescription">Selectionner la strategie DayNight</entry> 
+	<entry key="ActionStratDayNight.windowname">(DayNight)</entry>
+
+	<!-- Action Mettre la strategie Foret en feu-->
+	<entry key="ActionStratForetEnFeu.name">Foret en feu</entry>
+	<entry key="ActionStratForetEnFeu.shortDescription">Selectionner la strategie Foret en feu</entry> 
+	<entry key="ActionStratForetEnFeu.windowname">(Foret en feu)</entry>
+
+	<!-- Popup parametres de cette strategie-->
+	<entry key="popupParametrageStategieForetEnFeu.windowName">Parametrages</entry>
+	<entry key="popupParametrageStategieForetEnFeu.title">Parametrages de la strategie</entry>
+	<entry key="popupParametrageStategieForetEnFeu.PROPAGATION_FEU">Taux de propagation du feu</entry>
+	<entry key="popupParametrageStategieForetEnFeu.DUREE_EPUISEMENT_FEU">Duree d'epuisement du feu</entry>
+	<entry key="popupParametrageStategieForetEnFeu.DUREE_MAXIMAL_CENDRE">Duree maximal des cendres</entry>
+	<entry key="popupParametrageStategieForetEnFeu.PROBABILITE_FEU">Probabilite d'apparition feu</entry>
+	
+</properties>
+	
